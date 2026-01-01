@@ -29,5 +29,6 @@
   "licensesUrl": "",
 
   "dependencies": {
+"com.unity.animation.rigging"
   }
 }
