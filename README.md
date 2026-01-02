@@ -62,7 +62,167 @@ This tool is especially useful for \*\*prototyping, gameplay rigs, and procedura
 
 \- \*\*Animation Rigging\*\* package  
 
-&nbsp; Install via Package Manager:
+&nbsp; Install via Package Manager: com.unity.animation.rigging
+
+
+
+---
+
+
+
+\## 🔧 Installation (UPM)
+
+
+
+You can install this package directly from GitHub:
+
+
+
+1\. Open \*\*Unity → Package Manager\*\*
+
+2\. Click \*\*+ → Add package from git URL\*\*
+
+3\. Paste: https://github.com/DhineshMoorthy-gamedev/Unity\_AutoRigBuilder.git
+
+
+
+
+
+---
+
+
+
+\## 🚀 Usage
+
+
+
+1\. Open Unity
+
+2\. Go to: Tools → Auto Rig Builder
+
+3\. Assign:
+
+\- Animator
+
+\- Required bones (hips, spine, head, arms, legs)
+
+4\. Click \*\*Build Rig\*\*
+
+5\. Adjust IK targets in Scene View
+
+
+
+---
+
+
+
+\## 🧩 How It Works (High Level)
+
+
+
+\- Uses Unity’s \*\*Animation Rigging\*\* constraints
+
+\- Creates a central `Rig` GameObject
+
+\- Adds:
+
+\- `TwoBoneIKConstraint` for limbs
+
+\- Rotation control for head
+
+\- Targets and hints are placed relative to the character proportions
+
+
+
+---
+
+
+
+\## 🛣️ Roadmap
+
+
+
+Planned improvements:
+
+\- \[ ] Hip / body control with leg bending
+
+\- \[ ] Spine \& chest controls
+
+\- \[ ] Mirror support (Left ↔ Right)
+
+\- \[ ] Custom control shapes
+
+\- \[ ] Save / Load rig presets
+
+\- \[ ] Runtime-safe optional version
+
+
+
+---
+
+
+
+\## 🐛 Known Limitations
+
+
+
+\- Works best with \*\*humanoid-like skeletons\*\*
+
+\- No automatic bone detection (manual assignment required)
+
+\- Not intended for final animation production rigs
+
+
+
+---
+
+
+
+\## 🤝 Contributing
+
+
+
+Contributions, ideas, and feedback are welcome!
+
+
+
+\- Fork the repo
+
+\- Create a feature branch
+
+\- Submit a Pull Request
+
+
+
+---
+
+
+
+\## 📄 License
+
+
+
+MIT License — free to use, modify, and distribute.
+
+
+
+---
+
+
+
+\## 👤 Author
+
+
+
+\*\*Dhinesh Moorthy\*\*  
+
+Unity Developer | VR | Tools \& Systems  
+
+GitHub: https://github.com/DhineshMoorthy-gamedev
+
+
+
+
 
 
 
