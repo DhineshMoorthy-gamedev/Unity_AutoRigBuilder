@@ -71,24 +71,9 @@ You can install this package directly from GitHub using Unity Package Manager:
 
 ---
 
-## 🛣️ Roadmap
-
-Planned improvements and features:
-
-- [ ] Hip/body control with leg bending
-- [ ] Spine & chest controls
-- [ ] Mirror support (Left ↔ Right)
-- [ ] Custom control shapes
-- [ ] Save/Load rig presets
-- [ ] Runtime-safe optional version
-
----
-
 ## 🐛 Known Limitations
 
 - Works best with **humanoid-like skeletons**
-- No automatic bone detection (manual assignment required)
-- Not intended for final animation production rigs
 - Best suited for prototyping and gameplay purposes
 
 ---
